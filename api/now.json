@@ -1,4 +1,11 @@
 {
   "name" : "platzi-now-api",
+  "env": {
+    "NODE_ENV": "production",
+    "PORT": 3000,
+    "HOST": "0.0.0.0",
+    "DB_PORT": "5432",
+    
+  },
   "type" : "docker"
 }
